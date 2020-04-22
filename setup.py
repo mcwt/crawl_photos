@@ -15,7 +15,7 @@ setup(
     scripts=['crawl_photos.py'],
     entry_points={
         'console_scripts': [
-            'crawl_photos = crawl_photos.run:main'
+            'crawl_photos = crawl_photos:main'
         ]
     }
 
